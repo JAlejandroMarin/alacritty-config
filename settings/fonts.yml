@@ -1,23 +1,25 @@
+font-family: &font-family
+  CaskaydiaCove NF
+
 font:
   normal:
-    family: JetBrains Mono Nerd Font
+    family: *font-family
 
     style: Regular
 
   bold:
-    family: JetBrains Mono Nerd Font
-
+    family: *font-family
     style: Bold
 
-    family: JetBrains Mono Nerd Font
+    family: *font-family
 
     style: Italic
 
   bold_italic:
-    family: JetBrains Mono Nerd Font
+    family: *font-family
 
     style: Bold Italic
 
-  size: 11.5
+  size: 12
 
 draw_bold_text_with_bright_colors: true
